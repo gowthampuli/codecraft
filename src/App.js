@@ -22,7 +22,7 @@ function CodeEditor({ language, value, onChange }) {
       <label> {language} {getLanguageIcon(language)} </label>
 
       <div className="codeEditor">
-        <textarea onChange={(e) => onChange(e.target.value)}></textarea>
+        <textarea spellCheck={false} onChange={(e) => onChange(e.target.value)}></textarea>
         <pre dangerouslySetInnerHTML={{ __html: code }}>
 
         </pre>

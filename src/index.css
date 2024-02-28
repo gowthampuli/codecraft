@@ -28,6 +28,8 @@ body{
   font-family: monospace;
   line-height: 1.5;
   background: white;
+  overflow: auto;
+  width: 100%;
 }
 
 
@@ -42,6 +44,7 @@ body{
   line-height: inherit;
   width: 100%;
   border: none;
+  overflow: hidden;
 }            
 
 .codeEditor pre {
